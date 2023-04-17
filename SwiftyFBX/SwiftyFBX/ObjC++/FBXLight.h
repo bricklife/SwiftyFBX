@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static NSArray<NSString*> *const FBXLightTypeNames = @[@"Point", @"Directional", @"Spot", @"Area", @"Volume"];
+extern NSArray<NSString*> *const FBXLightTypeNames;
 
 @interface FBXLight : NSObject
 

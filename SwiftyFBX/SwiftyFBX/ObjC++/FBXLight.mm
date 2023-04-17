@@ -12,6 +12,8 @@
 #import "FBXStruct.h"
 #import <fbxsdk.h>
 
+NSArray<NSString*> *const FBXLightTypeNames = @[@"Point", @"Directional", @"Spot", @"Area", @"Volume"];
+
 @implementation FBXLight
 {    
     FbxLight* _cLight;
