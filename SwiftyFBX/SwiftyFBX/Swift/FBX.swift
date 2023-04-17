@@ -88,6 +88,6 @@ public class FBX {
     }
     
     public func getPolygonCount() -> Int {
-        return self.scene?.getPolygonCount() ?? 0
+        return Int(self.scene?.getPolygonCount() ?? 0)
     }
 }
