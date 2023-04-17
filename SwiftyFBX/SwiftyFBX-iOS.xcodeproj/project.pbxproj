@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBD6DEB029ED7649003C34B9 /* SwiftyFBX.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEAF29ED7649003C34B9 /* SwiftyFBX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DEFD29ED7680003C34B9 /* FBXPose_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEB729ED7680003C34B9 /* FBXPose_Internal.h */; };
+		CBD6DEFE29ED7680003C34B9 /* FBXLayerContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEB829ED7680003C34B9 /* FBXLayerContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DEFF29ED7680003C34B9 /* FBXPose.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEB929ED7680003C34B9 /* FBXPose.mm */; };
+		CBD6DF0029ED7680003C34B9 /* FBXLayerElementNormal.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEBA29ED7680003C34B9 /* FBXLayerElementNormal.mm */; };
+		CBD6DF0129ED7680003C34B9 /* SwiftyFBXFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEBB29ED7680003C34B9 /* SwiftyFBXFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0229ED7680003C34B9 /* FBXSkeleton.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEBC29ED7680003C34B9 /* FBXSkeleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0329ED7680003C34B9 /* FBXLayerElementNormal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEBD29ED7680003C34B9 /* FBXLayerElementNormal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0429ED7680003C34B9 /* SwiftyFBXLoadResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEBE29ED7680003C34B9 /* SwiftyFBXLoadResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0529ED7680003C34B9 /* FBXSkeleton_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEBF29ED7680003C34B9 /* FBXSkeleton_Internal.h */; };
+		CBD6DF0629ED7680003C34B9 /* FBXColor.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEC029ED7680003C34B9 /* FBXColor.mm */; };
+		CBD6DF0729ED7680003C34B9 /* FBXLayerElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEC129ED7680003C34B9 /* FBXLayerElement.m */; };
+		CBD6DF0829ED7680003C34B9 /* FBXAnimStack_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC229ED7680003C34B9 /* FBXAnimStack_Internal.h */; };
+		CBD6DF0929ED7680003C34B9 /* FBXNode_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC329ED7680003C34B9 /* FBXNode_Internal.h */; };
+		CBD6DF0A29ED7680003C34B9 /* FBXIOSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC429ED7680003C34B9 /* FBXIOSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0B29ED7680003C34B9 /* FBXSkeleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEC529ED7680003C34B9 /* FBXSkeleton.mm */; };
+		CBD6DF0C29ED7680003C34B9 /* FBXTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC629ED7680003C34B9 /* FBXTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF0D29ED7680003C34B9 /* FBXLight.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEC729ED7680003C34B9 /* FBXLight.mm */; };
+		CBD6DF0E29ED7680003C34B9 /* FBXCamera_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC829ED7680003C34B9 /* FBXCamera_Internal.h */; };
+		CBD6DF0F29ED7680003C34B9 /* FBXPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEC929ED7680003C34B9 /* FBXPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1029ED7680003C34B9 /* FBXLight.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DECA29ED7680003C34B9 /* FBXLight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1129ED7680003C34B9 /* FBXImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DECB29ED7680003C34B9 /* FBXImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1229ED7680003C34B9 /* FBXDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DECC29ED7680003C34B9 /* FBXDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1329ED7680003C34B9 /* SwiftyFBXLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DECD29ED7680003C34B9 /* SwiftyFBXLoader.mm */; };
+		CBD6DF1429ED7680003C34B9 /* FBXAnimStack.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DECE29ED7680003C34B9 /* FBXAnimStack.mm */; };
+		CBD6DF1529ED7680003C34B9 /* SwiftyFBXLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DECF29ED7680003C34B9 /* SwiftyFBXLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1629ED7680003C34B9 /* FBXSecne_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DED029ED7680003C34B9 /* FBXSecne_Internal.h */; };
+		CBD6DF1729ED7680003C34B9 /* FBXImporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED129ED7680003C34B9 /* FBXImporter.mm */; };
+		CBD6DF1829ED7680003C34B9 /* FBXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DED229ED7680003C34B9 /* FBXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1929ED7680003C34B9 /* FBXNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED329ED7680003C34B9 /* FBXNode.mm */; };
+		CBD6DF1A29ED7680003C34B9 /* FBXGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DED429ED7680003C34B9 /* FBXGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF1B29ED7680003C34B9 /* FBXScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED529ED7680003C34B9 /* FBXScene.mm */; };
+		CBD6DF1C29ED7680003C34B9 /* FBXSurfaceMaterial_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DED629ED7680003C34B9 /* FBXSurfaceMaterial_Internal.h */; };
+		CBD6DF1D29ED7680003C34B9 /* FBXIOSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED729ED7680003C34B9 /* FBXIOSettings.mm */; };
+		CBD6DF1E29ED7680003C34B9 /* SwiftyFBXFormat.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED829ED7680003C34B9 /* SwiftyFBXFormat.mm */; };
+		CBD6DF1F29ED7680003C34B9 /* FBXPoint.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DED929ED7680003C34B9 /* FBXPoint.mm */; };
+		CBD6DF2029ED7680003C34B9 /* FBXTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEDA29ED7680003C34B9 /* FBXTexture.mm */; };
+		CBD6DF2129ED7680003C34B9 /* FBXLayerContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEDB29ED7680003C34B9 /* FBXLayerContainer.mm */; };
+		CBD6DF2229ED7680003C34B9 /* FBXLight_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEDC29ED7680003C34B9 /* FBXLight_Internal.h */; };
+		CBD6DF2329ED7680003C34B9 /* FBXLayerElementNormal_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEDD29ED7680003C34B9 /* FBXLayerElementNormal_Internal.h */; };
+		CBD6DF2429ED7680003C34B9 /* SwiftyFBXLoadResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEDE29ED7680003C34B9 /* SwiftyFBXLoadResult.mm */; };
+		CBD6DF2529ED7680003C34B9 /* FBXIOFileHeaderInfo_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEDF29ED7680003C34B9 /* FBXIOFileHeaderInfo_Internal.h */; };
+		CBD6DF2629ED7680003C34B9 /* FBXSurfaceMaterial.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEE029ED7680003C34B9 /* FBXSurfaceMaterial.mm */; };
+		CBD6DF2729ED7680003C34B9 /* FBXStruct.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEE129ED7680003C34B9 /* FBXStruct.mm */; };
+		CBD6DF2829ED7680003C34B9 /* FBXLayerElement.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE229ED7680003C34B9 /* FBXLayerElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2929ED7680003C34B9 /* FBXCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE329ED7680003C34B9 /* FBXCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2A29ED7680003C34B9 /* FBXManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE429ED7680003C34B9 /* FBXManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2B29ED7680003C34B9 /* FBXIOFileHeaderInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEE529ED7680003C34B9 /* FBXIOFileHeaderInfo.mm */; };
+		CBD6DF2C29ED7680003C34B9 /* FBXMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE629ED7680003C34B9 /* FBXMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2D29ED7680003C34B9 /* FBXPose.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE729ED7680003C34B9 /* FBXPose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2E29ED7680003C34B9 /* FBXAnimStack.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEE829ED7680003C34B9 /* FBXAnimStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF2F29ED7680003C34B9 /* FBXCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEE929ED7680003C34B9 /* FBXCamera.mm */; };
+		CBD6DF3029ED7680003C34B9 /* FBXMesh_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEEA29ED7680003C34B9 /* FBXMesh_Internal.h */; };
+		CBD6DF3129ED7680003C34B9 /* FBXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEEB29ED7680003C34B9 /* FBXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3229ED7680003C34B9 /* FBXManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEEC29ED7680003C34B9 /* FBXManager.mm */; };
+		CBD6DF3329ED7680003C34B9 /* FBXStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEED29ED7680003C34B9 /* FBXStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3429ED7680003C34B9 /* FBXDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEEE29ED7680003C34B9 /* FBXDocument.mm */; };
+		CBD6DF3529ED7680003C34B9 /* FBXDocumentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEEF29ED7680003C34B9 /* FBXDocumentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3629ED7680003C34B9 /* FBXGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEF029ED7680003C34B9 /* FBXGeometry.mm */; };
+		CBD6DF3729ED7680003C34B9 /* FBXDocumentInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEF129ED7680003C34B9 /* FBXDocumentInfo.mm */; };
+		CBD6DF3829ED7680003C34B9 /* FBXMesh.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEF229ED7680003C34B9 /* FBXMesh.mm */; };
+		CBD6DF3929ED7680003C34B9 /* FBXIOFileHeaderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEF329ED7680003C34B9 /* FBXIOFileHeaderInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3A29ED7680003C34B9 /* FBXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEF429ED7680003C34B9 /* FBXCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3B29ED7680003C34B9 /* FBXCollection.mm in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DEF529ED7680003C34B9 /* FBXCollection.mm */; };
+		CBD6DF3C29ED7680003C34B9 /* FBXSurfaceMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEF629ED7680003C34B9 /* FBXSurfaceMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF3D29ED7680003C34B9 /* FBXTexture_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEF729ED7680003C34B9 /* FBXTexture_Internal.h */; };
+		CBD6DF3E29ED7680003C34B9 /* FBXScene.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD6DEF829ED7680003C34B9 /* FBXScene.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD6DF4629ED79DB003C34B9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD6DF4429ED79CD003C34B9 /* libiconv.tbd */; };
+		CBD6DF4729ED79DC003C34B9 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD6DF4529ED79D2003C34B9 /* libxml2.tbd */; };
+		CBD6DF4829ED79DC003C34B9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD6DF4329ED79C7003C34B9 /* libz.tbd */; };
+		CBD6DF7B29ED8C6D003C34B9 /* FBXLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DF7829ED8C6D003C34B9 /* FBXLoader.swift */; };
+		CBD6DF7C29ED8C6D003C34B9 /* FBX.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DF7929ED8C6D003C34B9 /* FBX.swift */; };
+		CBD6DF7D29ED8C6E003C34B9 /* FBXManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD6DF7A29ED8C6D003C34B9 /* FBXManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CBD6DEAC29ED7649003C34B9 /* SwiftyFBX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyFBX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD6DEAF29ED7649003C34B9 /* SwiftyFBX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyFBX.h; sourceTree = "<group>"; };
+		CBD6DEB729ED7680003C34B9 /* FBXPose_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPose_Internal.h; sourceTree = "<group>"; };
+		CBD6DEB829ED7680003C34B9 /* FBXLayerContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLayerContainer.h; sourceTree = "<group>"; };
+		CBD6DEB929ED7680003C34B9 /* FBXPose.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXPose.mm; sourceTree = "<group>"; };
+		CBD6DEBA29ED7680003C34B9 /* FBXLayerElementNormal.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXLayerElementNormal.mm; sourceTree = "<group>"; };
+		CBD6DEBB29ED7680003C34B9 /* SwiftyFBXFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyFBXFormat.h; sourceTree = "<group>"; };
+		CBD6DEBC29ED7680003C34B9 /* FBXSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXSkeleton.h; sourceTree = "<group>"; };
+		CBD6DEBD29ED7680003C34B9 /* FBXLayerElementNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLayerElementNormal.h; sourceTree = "<group>"; };
+		CBD6DEBE29ED7680003C34B9 /* SwiftyFBXLoadResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyFBXLoadResult.h; sourceTree = "<group>"; };
+		CBD6DEBF29ED7680003C34B9 /* FBXSkeleton_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXSkeleton_Internal.h; sourceTree = "<group>"; };
+		CBD6DEC029ED7680003C34B9 /* FBXColor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXColor.mm; sourceTree = "<group>"; };
+		CBD6DEC129ED7680003C34B9 /* FBXLayerElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBXLayerElement.m; sourceTree = "<group>"; };
+		CBD6DEC229ED7680003C34B9 /* FBXAnimStack_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXAnimStack_Internal.h; sourceTree = "<group>"; };
+		CBD6DEC329ED7680003C34B9 /* FBXNode_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXNode_Internal.h; sourceTree = "<group>"; };
+		CBD6DEC429ED7680003C34B9 /* FBXIOSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXIOSettings.h; sourceTree = "<group>"; };
+		CBD6DEC529ED7680003C34B9 /* FBXSkeleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXSkeleton.mm; sourceTree = "<group>"; };
+		CBD6DEC629ED7680003C34B9 /* FBXTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXTexture.h; sourceTree = "<group>"; };
+		CBD6DEC729ED7680003C34B9 /* FBXLight.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXLight.mm; sourceTree = "<group>"; };
+		CBD6DEC829ED7680003C34B9 /* FBXCamera_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCamera_Internal.h; sourceTree = "<group>"; };
+		CBD6DEC929ED7680003C34B9 /* FBXPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPoint.h; sourceTree = "<group>"; };
+		CBD6DECA29ED7680003C34B9 /* FBXLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLight.h; sourceTree = "<group>"; };
+		CBD6DECB29ED7680003C34B9 /* FBXImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXImporter.h; sourceTree = "<group>"; };
+		CBD6DECC29ED7680003C34B9 /* FBXDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXDocument.h; sourceTree = "<group>"; };
+		CBD6DECD29ED7680003C34B9 /* SwiftyFBXLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SwiftyFBXLoader.mm; sourceTree = "<group>"; };
+		CBD6DECE29ED7680003C34B9 /* FBXAnimStack.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXAnimStack.mm; sourceTree = "<group>"; };
+		CBD6DECF29ED7680003C34B9 /* SwiftyFBXLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyFBXLoader.h; sourceTree = "<group>"; };
+		CBD6DED029ED7680003C34B9 /* FBXSecne_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXSecne_Internal.h; sourceTree = "<group>"; };
+		CBD6DED129ED7680003C34B9 /* FBXImporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXImporter.mm; sourceTree = "<group>"; };
+		CBD6DED229ED7680003C34B9 /* FBXColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXColor.h; sourceTree = "<group>"; };
+		CBD6DED329ED7680003C34B9 /* FBXNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXNode.mm; sourceTree = "<group>"; };
+		CBD6DED429ED7680003C34B9 /* FBXGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXGeometry.h; sourceTree = "<group>"; };
+		CBD6DED529ED7680003C34B9 /* FBXScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXScene.mm; sourceTree = "<group>"; };
+		CBD6DED629ED7680003C34B9 /* FBXSurfaceMaterial_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXSurfaceMaterial_Internal.h; sourceTree = "<group>"; };
+		CBD6DED729ED7680003C34B9 /* FBXIOSettings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXIOSettings.mm; sourceTree = "<group>"; };
+		CBD6DED829ED7680003C34B9 /* SwiftyFBXFormat.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SwiftyFBXFormat.mm; sourceTree = "<group>"; };
+		CBD6DED929ED7680003C34B9 /* FBXPoint.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXPoint.mm; sourceTree = "<group>"; };
+		CBD6DEDA29ED7680003C34B9 /* FBXTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXTexture.mm; sourceTree = "<group>"; };
+		CBD6DEDB29ED7680003C34B9 /* FBXLayerContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXLayerContainer.mm; sourceTree = "<group>"; };
+		CBD6DEDC29ED7680003C34B9 /* FBXLight_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLight_Internal.h; sourceTree = "<group>"; };
+		CBD6DEDD29ED7680003C34B9 /* FBXLayerElementNormal_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLayerElementNormal_Internal.h; sourceTree = "<group>"; };
+		CBD6DEDE29ED7680003C34B9 /* SwiftyFBXLoadResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SwiftyFBXLoadResult.mm; sourceTree = "<group>"; };
+		CBD6DEDF29ED7680003C34B9 /* FBXIOFileHeaderInfo_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXIOFileHeaderInfo_Internal.h; sourceTree = "<group>"; };
+		CBD6DEE029ED7680003C34B9 /* FBXSurfaceMaterial.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXSurfaceMaterial.mm; sourceTree = "<group>"; };
+		CBD6DEE129ED7680003C34B9 /* FBXStruct.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXStruct.mm; sourceTree = "<group>"; };
+		CBD6DEE229ED7680003C34B9 /* FBXLayerElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXLayerElement.h; sourceTree = "<group>"; };
+		CBD6DEE329ED7680003C34B9 /* FBXCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCollection.h; sourceTree = "<group>"; };
+		CBD6DEE429ED7680003C34B9 /* FBXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXManager.h; sourceTree = "<group>"; };
+		CBD6DEE529ED7680003C34B9 /* FBXIOFileHeaderInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXIOFileHeaderInfo.mm; sourceTree = "<group>"; };
+		CBD6DEE629ED7680003C34B9 /* FBXMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXMesh.h; sourceTree = "<group>"; };
+		CBD6DEE729ED7680003C34B9 /* FBXPose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXPose.h; sourceTree = "<group>"; };
+		CBD6DEE829ED7680003C34B9 /* FBXAnimStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXAnimStack.h; sourceTree = "<group>"; };
+		CBD6DEE929ED7680003C34B9 /* FBXCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXCamera.mm; sourceTree = "<group>"; };
+		CBD6DEEA29ED7680003C34B9 /* FBXMesh_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXMesh_Internal.h; sourceTree = "<group>"; };
+		CBD6DEEB29ED7680003C34B9 /* FBXNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXNode.h; sourceTree = "<group>"; };
+		CBD6DEEC29ED7680003C34B9 /* FBXManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXManager.mm; sourceTree = "<group>"; };
+		CBD6DEED29ED7680003C34B9 /* FBXStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXStruct.h; sourceTree = "<group>"; };
+		CBD6DEEE29ED7680003C34B9 /* FBXDocument.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXDocument.mm; sourceTree = "<group>"; };
+		CBD6DEEF29ED7680003C34B9 /* FBXDocumentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXDocumentInfo.h; sourceTree = "<group>"; };
+		CBD6DEF029ED7680003C34B9 /* FBXGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXGeometry.mm; sourceTree = "<group>"; };
+		CBD6DEF129ED7680003C34B9 /* FBXDocumentInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXDocumentInfo.mm; sourceTree = "<group>"; };
+		CBD6DEF229ED7680003C34B9 /* FBXMesh.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXMesh.mm; sourceTree = "<group>"; };
+		CBD6DEF329ED7680003C34B9 /* FBXIOFileHeaderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXIOFileHeaderInfo.h; sourceTree = "<group>"; };
+		CBD6DEF429ED7680003C34B9 /* FBXCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXCamera.h; sourceTree = "<group>"; };
+		CBD6DEF529ED7680003C34B9 /* FBXCollection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FBXCollection.mm; sourceTree = "<group>"; };
+		CBD6DEF629ED7680003C34B9 /* FBXSurfaceMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXSurfaceMaterial.h; sourceTree = "<group>"; };
+		CBD6DEF729ED7680003C34B9 /* FBXTexture_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXTexture_Internal.h; sourceTree = "<group>"; };
+		CBD6DEF829ED7680003C34B9 /* FBXScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBXScene.h; sourceTree = "<group>"; };
+		CBD6DF4329ED79C7003C34B9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CBD6DF4429ED79CD003C34B9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CBD6DF4529ED79D2003C34B9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		CBD6DF7829ED8C6D003C34B9 /* FBXLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBXLoader.swift; sourceTree = "<group>"; };
+		CBD6DF7929ED8C6D003C34B9 /* FBX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBX.swift; sourceTree = "<group>"; };
+		CBD6DF7A29ED8C6D003C34B9 /* FBXManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBXManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD6DEA929ED7649003C34B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD6DF4629ED79DB003C34B9 /* libiconv.tbd in Frameworks */,
+				CBD6DF4829ED79DC003C34B9 /* libz.tbd in Frameworks */,
+				CBD6DF4729ED79DC003C34B9 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD6DEA229ED7648003C34B9 = {
+			isa = PBXGroup;
+			children = (
+				CBD6DEAE29ED7649003C34B9 /* SwiftyFBX */,
+				CBD6DEAD29ED7649003C34B9 /* Products */,
+				CBD6DF4229ED79C6003C34B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD6DEAD29ED7649003C34B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6DEAC29ED7649003C34B9 /* SwiftyFBX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD6DEAE29ED7649003C34B9 /* SwiftyFBX */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6DEB629ED7680003C34B9 /* ObjC++ */,
+				CBD6DF7729ED8C6D003C34B9 /* Swift */,
+				CBD6DEAF29ED7649003C34B9 /* SwiftyFBX.h */,
+			);
+			path = SwiftyFBX;
+			sourceTree = "<group>";
+		};
+		CBD6DEB629ED7680003C34B9 /* ObjC++ */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6DEC229ED7680003C34B9 /* FBXAnimStack_Internal.h */,
+				CBD6DEE829ED7680003C34B9 /* FBXAnimStack.h */,
+				CBD6DECE29ED7680003C34B9 /* FBXAnimStack.mm */,
+				CBD6DEC829ED7680003C34B9 /* FBXCamera_Internal.h */,
+				CBD6DEF429ED7680003C34B9 /* FBXCamera.h */,
+				CBD6DEE929ED7680003C34B9 /* FBXCamera.mm */,
+				CBD6DEE329ED7680003C34B9 /* FBXCollection.h */,
+				CBD6DEF529ED7680003C34B9 /* FBXCollection.mm */,
+				CBD6DED229ED7680003C34B9 /* FBXColor.h */,
+				CBD6DEC029ED7680003C34B9 /* FBXColor.mm */,
+				CBD6DECC29ED7680003C34B9 /* FBXDocument.h */,
+				CBD6DEEE29ED7680003C34B9 /* FBXDocument.mm */,
+				CBD6DEEF29ED7680003C34B9 /* FBXDocumentInfo.h */,
+				CBD6DEF129ED7680003C34B9 /* FBXDocumentInfo.mm */,
+				CBD6DED429ED7680003C34B9 /* FBXGeometry.h */,
+				CBD6DEF029ED7680003C34B9 /* FBXGeometry.mm */,
+				CBD6DECB29ED7680003C34B9 /* FBXImporter.h */,
+				CBD6DED129ED7680003C34B9 /* FBXImporter.mm */,
+				CBD6DEDF29ED7680003C34B9 /* FBXIOFileHeaderInfo_Internal.h */,
+				CBD6DEF329ED7680003C34B9 /* FBXIOFileHeaderInfo.h */,
+				CBD6DEE529ED7680003C34B9 /* FBXIOFileHeaderInfo.mm */,
+				CBD6DEC429ED7680003C34B9 /* FBXIOSettings.h */,
+				CBD6DED729ED7680003C34B9 /* FBXIOSettings.mm */,
+				CBD6DEB829ED7680003C34B9 /* FBXLayerContainer.h */,
+				CBD6DEDB29ED7680003C34B9 /* FBXLayerContainer.mm */,
+				CBD6DEE229ED7680003C34B9 /* FBXLayerElement.h */,
+				CBD6DEC129ED7680003C34B9 /* FBXLayerElement.m */,
+				CBD6DEDD29ED7680003C34B9 /* FBXLayerElementNormal_Internal.h */,
+				CBD6DEBD29ED7680003C34B9 /* FBXLayerElementNormal.h */,
+				CBD6DEBA29ED7680003C34B9 /* FBXLayerElementNormal.mm */,
+				CBD6DEDC29ED7680003C34B9 /* FBXLight_Internal.h */,
+				CBD6DECA29ED7680003C34B9 /* FBXLight.h */,
+				CBD6DEC729ED7680003C34B9 /* FBXLight.mm */,
+				CBD6DEE429ED7680003C34B9 /* FBXManager.h */,
+				CBD6DEEC29ED7680003C34B9 /* FBXManager.mm */,
+				CBD6DEEA29ED7680003C34B9 /* FBXMesh_Internal.h */,
+				CBD6DEE629ED7680003C34B9 /* FBXMesh.h */,
+				CBD6DEF229ED7680003C34B9 /* FBXMesh.mm */,
+				CBD6DEC329ED7680003C34B9 /* FBXNode_Internal.h */,
+				CBD6DEEB29ED7680003C34B9 /* FBXNode.h */,
+				CBD6DED329ED7680003C34B9 /* FBXNode.mm */,
+				CBD6DEC929ED7680003C34B9 /* FBXPoint.h */,
+				CBD6DED929ED7680003C34B9 /* FBXPoint.mm */,
+				CBD6DEB729ED7680003C34B9 /* FBXPose_Internal.h */,
+				CBD6DEE729ED7680003C34B9 /* FBXPose.h */,
+				CBD6DEB929ED7680003C34B9 /* FBXPose.mm */,
+				CBD6DEF829ED7680003C34B9 /* FBXScene.h */,
+				CBD6DED529ED7680003C34B9 /* FBXScene.mm */,
+				CBD6DED029ED7680003C34B9 /* FBXSecne_Internal.h */,
+				CBD6DEBF29ED7680003C34B9 /* FBXSkeleton_Internal.h */,
+				CBD6DEBC29ED7680003C34B9 /* FBXSkeleton.h */,
+				CBD6DEC529ED7680003C34B9 /* FBXSkeleton.mm */,
+				CBD6DEED29ED7680003C34B9 /* FBXStruct.h */,
+				CBD6DEE129ED7680003C34B9 /* FBXStruct.mm */,
+				CBD6DED629ED7680003C34B9 /* FBXSurfaceMaterial_Internal.h */,
+				CBD6DEF629ED7680003C34B9 /* FBXSurfaceMaterial.h */,
+				CBD6DEE029ED7680003C34B9 /* FBXSurfaceMaterial.mm */,
+				CBD6DEF729ED7680003C34B9 /* FBXTexture_Internal.h */,
+				CBD6DEC629ED7680003C34B9 /* FBXTexture.h */,
+				CBD6DEDA29ED7680003C34B9 /* FBXTexture.mm */,
+				CBD6DEBB29ED7680003C34B9 /* SwiftyFBXFormat.h */,
+				CBD6DED829ED7680003C34B9 /* SwiftyFBXFormat.mm */,
+				CBD6DECF29ED7680003C34B9 /* SwiftyFBXLoader.h */,
+				CBD6DECD29ED7680003C34B9 /* SwiftyFBXLoader.mm */,
+				CBD6DEBE29ED7680003C34B9 /* SwiftyFBXLoadResult.h */,
+				CBD6DEDE29ED7680003C34B9 /* SwiftyFBXLoadResult.mm */,
+			);
+			path = "ObjC++";
+			sourceTree = "<group>";
+		};
+		CBD6DF4229ED79C6003C34B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6DF4529ED79D2003C34B9 /* libxml2.tbd */,
+				CBD6DF4429ED79CD003C34B9 /* libiconv.tbd */,
+				CBD6DF4329ED79C7003C34B9 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD6DF7729ED8C6D003C34B9 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CBD6DF7829ED8C6D003C34B9 /* FBXLoader.swift */,
+				CBD6DF7929ED8C6D003C34B9 /* FBX.swift */,
+				CBD6DF7A29ED8C6D003C34B9 /* FBXManager.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBD6DEA729ED7649003C34B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD6DEB029ED7649003C34B9 /* SwiftyFBX.h in Headers */,
+				CBD6DF0829ED7680003C34B9 /* FBXAnimStack_Internal.h in Headers */,
+				CBD6DF0E29ED7680003C34B9 /* FBXCamera_Internal.h in Headers */,
+				CBD6DF2329ED7680003C34B9 /* FBXLayerElementNormal_Internal.h in Headers */,
+				CBD6DF0929ED7680003C34B9 /* FBXNode_Internal.h in Headers */,
+				CBD6DF3929ED7680003C34B9 /* FBXIOFileHeaderInfo.h in Headers */,
+				CBD6DF3329ED7680003C34B9 /* FBXStruct.h in Headers */,
+				CBD6DF1029ED7680003C34B9 /* FBXLight.h in Headers */,
+				CBD6DF2C29ED7680003C34B9 /* FBXMesh.h in Headers */,
+				CBD6DF3129ED7680003C34B9 /* FBXNode.h in Headers */,
+				CBD6DF2A29ED7680003C34B9 /* FBXManager.h in Headers */,
+				CBD6DF2829ED7680003C34B9 /* FBXLayerElement.h in Headers */,
+				CBD6DF1129ED7680003C34B9 /* FBXImporter.h in Headers */,
+				CBD6DF2929ED7680003C34B9 /* FBXCollection.h in Headers */,
+				CBD6DF1A29ED7680003C34B9 /* FBXGeometry.h in Headers */,
+				CBD6DF3A29ED7680003C34B9 /* FBXCamera.h in Headers */,
+				CBD6DF1229ED7680003C34B9 /* FBXDocument.h in Headers */,
+				CBD6DF3C29ED7680003C34B9 /* FBXSurfaceMaterial.h in Headers */,
+				CBD6DF2E29ED7680003C34B9 /* FBXAnimStack.h in Headers */,
+				CBD6DF0129ED7680003C34B9 /* SwiftyFBXFormat.h in Headers */,
+				CBD6DEFE29ED7680003C34B9 /* FBXLayerContainer.h in Headers */,
+				CBD6DF0429ED7680003C34B9 /* SwiftyFBXLoadResult.h in Headers */,
+				CBD6DF0C29ED7680003C34B9 /* FBXTexture.h in Headers */,
+				CBD6DF2D29ED7680003C34B9 /* FBXPose.h in Headers */,
+				CBD6DF3E29ED7680003C34B9 /* FBXScene.h in Headers */,
+				CBD6DF0F29ED7680003C34B9 /* FBXPoint.h in Headers */,
+				CBD6DF3529ED7680003C34B9 /* FBXDocumentInfo.h in Headers */,
+				CBD6DF1529ED7680003C34B9 /* SwiftyFBXLoader.h in Headers */,
+				CBD6DF1829ED7680003C34B9 /* FBXColor.h in Headers */,
+				CBD6DF0229ED7680003C34B9 /* FBXSkeleton.h in Headers */,
+				CBD6DF0329ED7680003C34B9 /* FBXLayerElementNormal.h in Headers */,
+				CBD6DF0A29ED7680003C34B9 /* FBXIOSettings.h in Headers */,
+				CBD6DF1C29ED7680003C34B9 /* FBXSurfaceMaterial_Internal.h in Headers */,
+				CBD6DEFD29ED7680003C34B9 /* FBXPose_Internal.h in Headers */,
+				CBD6DF3D29ED7680003C34B9 /* FBXTexture_Internal.h in Headers */,
+				CBD6DF2529ED7680003C34B9 /* FBXIOFileHeaderInfo_Internal.h in Headers */,
+				CBD6DF3029ED7680003C34B9 /* FBXMesh_Internal.h in Headers */,
+				CBD6DF0529ED7680003C34B9 /* FBXSkeleton_Internal.h in Headers */,
+				CBD6DF2229ED7680003C34B9 /* FBXLight_Internal.h in Headers */,
+				CBD6DF1629ED7680003C34B9 /* FBXSecne_Internal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBD6DEAB29ED7649003C34B9 /* SwiftyFBX iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD6DEB329ED7649003C34B9 /* Build configuration list for PBXNativeTarget "SwiftyFBX iOS" */;
+			buildPhases = (
+				CBD6DEA729ED7649003C34B9 /* Headers */,
+				CBD6DEA829ED7649003C34B9 /* Sources */,
+				CBD6DEA929ED7649003C34B9 /* Frameworks */,
+				CBD6DEAA29ED7649003C34B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyFBX iOS";
+			productName = SwiftyFBX;
+			productReference = CBD6DEAC29ED7649003C34B9 /* SwiftyFBX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD6DEA329ED7648003C34B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CBD6DEAB29ED7649003C34B9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CBD6DEA629ED7648003C34B9 /* Build configuration list for PBXProject "SwiftyFBX-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD6DEA229ED7648003C34B9;
+			productRefGroup = CBD6DEAD29ED7649003C34B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD6DEAB29ED7649003C34B9 /* SwiftyFBX iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD6DEAA29ED7649003C34B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD6DEA829ED7649003C34B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD6DF3229ED7680003C34B9 /* FBXManager.mm in Sources */,
+				CBD6DF2429ED7680003C34B9 /* SwiftyFBXLoadResult.mm in Sources */,
+				CBD6DF3629ED7680003C34B9 /* FBXGeometry.mm in Sources */,
+				CBD6DF3429ED7680003C34B9 /* FBXDocument.mm in Sources */,
+				CBD6DF2729ED7680003C34B9 /* FBXStruct.mm in Sources */,
+				CBD6DF3829ED7680003C34B9 /* FBXMesh.mm in Sources */,
+				CBD6DF7C29ED8C6D003C34B9 /* FBX.swift in Sources */,
+				CBD6DF1E29ED7680003C34B9 /* SwiftyFBXFormat.mm in Sources */,
+				CBD6DF2B29ED7680003C34B9 /* FBXIOFileHeaderInfo.mm in Sources */,
+				CBD6DF2F29ED7680003C34B9 /* FBXCamera.mm in Sources */,
+				CBD6DF3B29ED7680003C34B9 /* FBXCollection.mm in Sources */,
+				CBD6DF1929ED7680003C34B9 /* FBXNode.mm in Sources */,
+				CBD6DF1729ED7680003C34B9 /* FBXImporter.mm in Sources */,
+				CBD6DF2029ED7680003C34B9 /* FBXTexture.mm in Sources */,
+				CBD6DF7D29ED8C6E003C34B9 /* FBXManager.swift in Sources */,
+				CBD6DF7B29ED8C6D003C34B9 /* FBXLoader.swift in Sources */,
+				CBD6DF1B29ED7680003C34B9 /* FBXScene.mm in Sources */,
+				CBD6DF0B29ED7680003C34B9 /* FBXSkeleton.mm in Sources */,
+				CBD6DF1F29ED7680003C34B9 /* FBXPoint.mm in Sources */,
+				CBD6DF0D29ED7680003C34B9 /* FBXLight.mm in Sources */,
+				CBD6DF2629ED7680003C34B9 /* FBXSurfaceMaterial.mm in Sources */,
+				CBD6DF1D29ED7680003C34B9 /* FBXIOSettings.mm in Sources */,
+				CBD6DF1429ED7680003C34B9 /* FBXAnimStack.mm in Sources */,
+				CBD6DF3729ED7680003C34B9 /* FBXDocumentInfo.mm in Sources */,
+				CBD6DF1329ED7680003C34B9 /* SwiftyFBXLoader.mm in Sources */,
+				CBD6DF0029ED7680003C34B9 /* FBXLayerElementNormal.mm in Sources */,
+				CBD6DF2129ED7680003C34B9 /* FBXLayerContainer.mm in Sources */,
+				CBD6DEFF29ED7680003C34B9 /* FBXPose.mm in Sources */,
+				CBD6DF0629ED7680003C34B9 /* FBXColor.mm in Sources */,
+				CBD6DF0729ED7680003C34B9 /* FBXLayerElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBD6DEB129ED7649003C34B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBD6DEB229ED7649003C34B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD6DEB429ED7649003C34B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"/Applications/Autodesk/FBX SDK/2020.3.2/include\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-ObjC",
+					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios-armv7/debug/libfbxsdk.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-ObjC",
+					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios/debug/libfbxsdk.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bricklife.SwiftyFBX;
+				PRODUCT_NAME = SwiftyFBX;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD6DEB529ED7649003C34B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"/Applications/Autodesk/FBX SDK/2020.3.2/include\"";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"-ObjC",
+					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios-armv7/release/libfbxsdk.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"-ObjC",
+					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios/release/libfbxsdk.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bricklife.SwiftyFBX;
+				PRODUCT_NAME = SwiftyFBX;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD6DEA629ED7648003C34B9 /* Build configuration list for PBXProject "SwiftyFBX-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD6DEB129ED7649003C34B9 /* Debug */,
+				CBD6DEB229ED7649003C34B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD6DEB329ED7649003C34B9 /* Build configuration list for PBXNativeTarget "SwiftyFBX iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD6DEB429ED7649003C34B9 /* Debug */,
+				CBD6DEB529ED7649003C34B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD6DEA329ED7648003C34B9 /* Project object */;
+}
