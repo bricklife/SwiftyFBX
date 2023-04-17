@@ -592,7 +592,7 @@
 					"-ObjC",
 					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios/debug/libfbxsdk.a\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bricklife.SwiftyFBX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroakit.SwiftyFBX;
 				PRODUCT_NAME = SwiftyFBX;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -633,7 +633,7 @@
 					"-ObjC",
 					"\"/Applications/Autodesk/FBX SDK/2020.3.2/lib/ios/release/libfbxsdk.a\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bricklife.SwiftyFBX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroakit.SwiftyFBX;
 				PRODUCT_NAME = SwiftyFBX;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
