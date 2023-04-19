@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/ooba/github/SwiftyFBX/SwiftyFBX/SwiftyFBX-iOS.xcodeproj">
+      location = "group:SwiftyFBX/SwiftyFBX-iOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:iOS Sample/iOS Sample.xcodeproj">
